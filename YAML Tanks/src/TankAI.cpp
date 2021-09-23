@@ -97,11 +97,11 @@ void TankAi::render(sf::RenderWindow & window)
 	window.draw(m_arrowLeft);
 	window.draw(m_arrowRight);
 
-	// renders the obstacles circles that tank avoids
-	for (sf::CircleShape obstacleCircle : m_obstacles)
+	// renders the obstacles circles that tank avoids for debuging
+	/*for (sf::CircleShape obstacleCircle : m_obstacles)
 	{
 		window.draw(obstacleCircle);
-	}
+	}*/
 	
 }
 
