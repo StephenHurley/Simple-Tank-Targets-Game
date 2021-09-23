@@ -1,0 +1,280 @@
+background:
+   file: ./resources/images/Background.jpg
+tank:
+   topLeft: {x: 100, y: 100}
+   topRight: {x: 1340, y: 100}
+   bottomRight: {x: 1340, y: 750}
+   bottomLeft: {x: 100, y: 750}
+   tempPosition: {x: 400, y: 500}
+ai_tank:
+   topLeft: {x: 100, y: 100}
+   topRight: {x: 1340, y: 100}
+   bottomRight: {x: 1340, y: 750}
+   bottomLeft: {x: 100, y: 750}
+   tempPosition: {x: 1200, y: 700}
+obstacles:
+   - type: wall
+     position: {x: 100, y: 660}
+     rotation: 0
+   - type: wall
+     position: {x: 134, y: 662}
+     rotation: 10
+   - type: wall
+     position: {x: 167, y: 670}
+     rotation: 20
+   - type: wall
+     position: {x: 198, y: 685}
+     rotation: 30
+   - type: wall
+     position: {x: 227, y: 704}
+     rotation: 40
+   - type: wall
+     position: {x: 251, y: 729}
+     rotation: 50
+   - type: wall
+     position: {x: 272, y: 757}
+     rotation: 60
+   - type: wall
+     position: {x: 1340, y: 240}
+     rotation: 0
+   - type: wall
+     position: {x: 1306, y: 238}
+     rotation: 10
+   - type: wall
+     position: {x: 1273, y: 230}
+     rotation: 20
+   - type: wall
+     position: {x: 1242, y: 215}
+     rotation: 30
+   - type: wall
+     position: {x: 1213, y: 196}
+     rotation: 40
+   - type: wall
+     position: {x: 1189, y: 171}
+     rotation: 50
+   - type: wall
+     position: {x: 1168, y: 143}
+     rotation: 60
+   - type: wall
+     position: {x: 400, y: 200}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 233}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 266}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 299}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 332}
+     rotation: 90
+   - type: wall
+     position: {x: 900, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 933, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 966, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 999, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 1032, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 98, y: 501}
+     rotation: 90
+   - type: wall
+     position: {x: 98, y: 534}
+     rotation: 90
+   - type: wall
+     position: {x: 98, y: 567}
+     rotation: 90
+   - type: wall
+     position: {x: 98, y: 600}
+     rotation: 90
+   - type: wall
+     position: {x: 98, y: 633}
+     rotation: 90
+   - type: wall
+     position: {x: 255, y: 301}
+     rotation: 90
+   - type: wall
+     position: {x: 255, y: 334}
+     rotation: 90
+   - type: wall
+     position: {x: 255, y: 367}
+     rotation: 90
+   - type: wall
+     position: {x: 255, y: 400}
+     rotation: 90
+   - type: wall
+     position: {x: 255, y: 433}
+     rotation: 90
+   - type: wall
+     position: {x: 1347, y: 271}
+     rotation: 90
+   - type: wall
+     position: {x: 1347, y: 304}
+     rotation: 90
+   - type: wall
+     position: {x: 1347, y: 337}
+     rotation: 90
+   - type: wall
+     position: {x: 1347, y: 370}
+     rotation: 90
+   - type: wall
+     position: {x: 1347, y: 403}
+     rotation: 90
+   - type: wall
+     position: {x: 1057, y: 486}
+     rotation: 0
+   - type: wall
+     position: {x: 1090, y: 486}
+     rotation: 0
+   - type: wall
+     position: {x: 1122, y: 486}
+     rotation: 0
+   - type: wall
+     position: {x: 1155, y: 486}
+     rotation: 0
+   - type: wall
+     position: {x: 1188, y: 486}
+     rotation: 0
+   - type: wall
+     position: {x: 527, y: 387}
+     rotation: 0
+   - type: wall
+     position: {x: 560, y: 387}
+     rotation: 0
+   - type: wall
+     position: {x: 593, y: 387}
+     rotation: 0
+   - type: wall
+     position: {x: 790, y: 387}
+     rotation: 0
+   - type: wall
+     position: {x: 823, y: 387}
+     rotation: 0
+   - type: wall
+     position: {x: 856, y: 387}
+     rotation: 0
+   - type: wall
+     position: {x: 527, y: 466}
+     rotation: 0
+   - type: wall
+     position: {x: 560, y: 466}
+     rotation: 0
+   - type: wall
+     position: {x: 593, y: 466}
+     rotation: 0
+   - type: wall
+     position: {x: 790, y: 466}
+     rotation: 0
+   - type: wall
+     position: {x: 823, y: 466}
+     rotation: 0
+   - type: wall
+     position: {x: 856, y: 466}
+     rotation: 0
+   - type: wall
+     position: {x: 624, y: 290}
+     rotation: 90
+   - type: wall
+     position: {x: 624, y: 323}
+     rotation: 90
+   - type: wall
+     position: {x: 624, y: 358}
+     rotation: 90
+   - type: wall
+     position: {x: 624, y: 495}
+     rotation: 90
+   - type: wall
+     position: {x: 624, y: 525}
+     rotation: 90
+   - type: wall
+     position: {x: 624, y: 558}
+     rotation: 90
+   - type: wall
+     position: {x: 763, y: 290}
+     rotation: 90
+   - type: wall
+     position: {x: 763, y: 323}
+     rotation: 90
+   - type: wall
+     position: {x: 763, y: 358}
+     rotation: 90
+   - type: wall
+     position: {x: 763, y: 495}
+     rotation: 90
+   - type: wall
+     position: {x: 763, y: 525}
+     rotation: 90
+   - type: wall
+     position: {x: 763, y: 558}
+     rotation: 90
+targets: 
+   - type: target
+     position: {x: 715, y: 430, maxOffSet: 20}
+     duration: 10
+     active: true
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 1200, y: 700, maxOffSet: 50}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 860, y: 300, maxOffSet: 30}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 80, y: 120, maxOffSet: 50}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 555, y: 525, maxOffSet: 20}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 1250, y: 80, maxOffSet: 30}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 720, y: 680, maxOffSet: 10}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 555, y: 300, maxOffSet: 20}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 75, y: 700, maxOffSet: 30}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
+   - type: target
+     position: {x: 865, y: 530, maxOffSet: 10}
+     duration: 10
+     active: false
+     removedFromGame: false
+     shot: false
